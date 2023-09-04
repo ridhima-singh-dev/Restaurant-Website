@@ -1,0 +1,103 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 16px;
+  background-color: #105c5c
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+tr :hover {
+  background-color: #207b7b;
+}
+
+h4 {
+  background-color: black;
+  margin: 1px;
+  font-family: cursive;
+  font-style: italic;
+  color: burlywood;
+}
+
+.formcenter {
+  display: flex;
+  justify-content: center;
+  color: black;
+  padding: 1px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: #105c5c;
+
+}
+
+.reservationbox {
+  padding: 1px;
+  margin: 1px;
+  background-color: black;
+  color: burlywood;
+}
+
+
+.videocontent {
+  background-color: #36454F;
+  padding: 1px;
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
+  background-color: #36454F;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media (min-width: 955px) {
+  figure {
+    float: left;
+    margin-right: 24px;
+  }
+}
+
+figure {
+  margin: 0 0 12px 0;
+  text-align: center;
+  color: black;
+}
+
+img {
+  float: left;
+  margin: 5px;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+}

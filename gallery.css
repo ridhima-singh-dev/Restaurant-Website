@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #36454F;
+    padding: 10px;
+    font-family: Cambria;
+    color: burlywood;
+}
+
+.galleryMain {
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.gallerypicture {
+    width: 250px;
+    height: 250px;
+    transition: all 0.2s;
+}
+
+.row {
+    margin: 2px;
+}
+
+
+.row,
+.row>.column {
+    padding: 2px;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: antiquewhite;
+    padding: 2px;
+    width: 275px;
+    height: 185px;
+}
+
+.gallerypicture:hover {
+    outline: 15px solid white;
+    outline-style: groove;
+    transform: scale(1.05) translateY(-20px);
+    z-index: 20;
+}
+
+.galleryMain:hover .gallerypicture:not(:hover) {
+    transform: scale(0.9);
+}

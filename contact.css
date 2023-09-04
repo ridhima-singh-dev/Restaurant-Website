@@ -1,0 +1,88 @@
+#contactSideNav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#contactSideNav a:hover {
+    left: 0px;
+}
+
+#hi {
+    top: 80px;
+    background-color: brown;
+}
+
+#good {
+    top: 140px;
+    background-color: blue;
+}
+
+#to {
+    top: 200px;
+    background-color: coral;
+}
+
+#see {
+    top: 260px;
+    background-color: cadetblue;
+}
+
+#back {
+    top: 320px;
+    background-color: chartreuse;
+}
+
+.contactusImage {
+    background-image: url("images/contactus4.jpg");
+    min-height: 690px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+
+}
+
+div p {
+    font-size: large;
+    font-weight: 200;
+    text-align: center;
+    color: burlywood;
+}
+
+div pre {
+    font-size: large;
+    font-weight: 200;
+    font-family: Cambria;
+    text-align: center;
+    color: burlywood;
+}
+
+div h2 {
+    text-align: center;
+    color: burlywood;
+}
+
+.inlinespan {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: white;
+}
+
+.inlineBlockspan {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    padding: 1px;
+    border: 1px solid blue;
+    background-color: white;
+}

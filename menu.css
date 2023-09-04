@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #36454F;
+    padding: 5px;
+    font-family: Cambria;
+    color: burlywood;
+}
+
+.container {
+    background: white;
+    margin: 0 auto;
+    padding: 2%;
+    width: 275px;
+    height: 180px;
+}
+
+img {
+    width: 100px;
+    height: 100%;
+    vertical-align: middle;
+    transition: transform .2s;
+}
+
+.MenuMain {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    margin: 8px;
+}
+
+
+.row,
+.row>.column {
+    padding: 8px;
+}
+
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: antiquewhite;
+    padding: 10px;
+}

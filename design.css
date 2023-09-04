@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.backgroundImage {
+    background-image: url("images/cruisepicture6.jpg");
+    min-height: 700px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #231f20;
+}
+
+.navbar a {
+    float: left;
+    /*display: block;*/
+    padding: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #231f20;
+    font-family: Cambria;
+    color: burlywood;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar a.active {
+    background-color: rgb(7, 57, 83);
+    color: black;
+    border-bottom: 3px solid yellowgreen;
+}
+
+.navbar a:hover {
+    /*background-color:rgb(7, 57, 83);*/
+    color: burlywood;
+    border-bottom: 3px solid yellowgreen;
+}
+
+.navbar a.split {
+    float: right;
+    overflow: auto;
+    background-color: #231f20;
+    color: burlywood;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.contentHome {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: beige;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: Cambria;
+    font-weight: normal;
+    font-style: italic;
+    font-size: large;
+}
+
+.description {
+    text-align: center;
+    font-family: Cambria;
+    font-weight: 100;
+    color: white;
+    background: rgb(58, 204, 192);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.contentHome2 {
+    position: absolute;
+    bottom: 450px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: beige;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-family: Cambria;
+    font-weight: normal;
+    font-style: italic;
+    font-size: large;
+}
+
+.waviy {
+    position: relative;
+}
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    color: burlywood;
+    text-transform: none;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
+}

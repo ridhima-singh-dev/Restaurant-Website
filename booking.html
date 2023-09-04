@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Booking dates</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet" href="booking.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="./home.html">Home</a>
+        <a href="./menu.html">Menu</a>
+        <a href="./gallery.html">Gallery</a>
+        <a class="active" href="/booking.html">Reservations</a>
+        <a href="./contact.html">Contact Us</a>
+        <a href="https://www.google.com" class="split">Booze on a Cruise</a>
+    </div>
+    <div class="videocontent">
+        <video width="730" height="280" controls>
+            <source src="/images/cruisevideo.mp4" type="video/mp4">
+        </video>
+        <video width="730" height="280" controls>
+            <source src="/images/cruisevideo2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <p class="reservationbox">Offer For Prime Customers</p>
+            <table>
+                <tr>
+                    <th style="width:50%">Features</th>
+                    <th>Basic</th>
+                    <th>Pro</th>
+                </tr>
+                <tr>
+                    <td>Dicount on Beverage</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Discount on Food</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Discount on Rooms</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td>Discounts on other amenities</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                </tr>
+            </table>
+        </div>
+        <div class="column">
+            <p class="reservationbox">Make a Reservations</p>
+            <div class="formcenter">
+                <form action="#Reservation">
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="contactno">Contact No:</label><br>
+                    <input type="tel" id="contactno" name="contactno"><br>
+                    <label for="reservationdate">Date:</label><br>
+                    <input type="date" id="reservationdate" name="reservationdate"><br>
+                    <label for="reservationtime">Time:</label><br>
+                    <input type="time" id="reservationtime" name="reservationtime"><br>
+                    <label for="noofpeople">People:</label><br>
+                    <input type="number" id="noofpeople" name="noofpeople"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <div class="column" style="background-color: #105c5c;">
+            <figure>
+                <img src="/images/menupicture1.png" alt="Fresh from farm">
+
+                <p>Because fresh ingredients require no preservatives, you can enjoy your meal knowing just what’s in it
+                    – natural ingredients. You’ll have the peace of mind knowing that you and your family are eating
+                    quality, natural foods
+                    you’ll know where your food came from. Our restaurants are able to tell you the specific farms that
+                    supply their ingredients.
+
+            </figure>
+        </div>
+    </div>
+</body>
+
+</html>
